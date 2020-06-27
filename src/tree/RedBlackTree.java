@@ -33,7 +33,7 @@ public class RedBlackTree {
 		}
 		
 		String getColor() {
-			return color == 0 ? "BLACK" : "RED";
+			return color == RED ? "RED" : "BLACK";
 		}
 		
 		void setColor(int color) {
