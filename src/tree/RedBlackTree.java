@@ -233,6 +233,9 @@ public class RedBlackTree {
 		insertNode(new Node(500));
 		insertNode(new Node(250));
 		insertNode(new Node(120));
+		insertNode(new Node(300));
+		insertNode(new Node(350));
+		insertNode(new Node(380));
 		
 		System.out.println();
 		printTree(root);
